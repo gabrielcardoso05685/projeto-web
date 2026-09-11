@@ -1,0 +1,18 @@
+git config --global user.name "Seu Nome Completo"
+git config --global user.email "seu.email@example.com"
+
+cd desktop
+git clone + url
+
+cd projeto-web
+
+code .
+
+python -m venv venv 
+
+venv\Scripts\activate
+
+pip install -r requirement.txt
+
+git add .
+git commit -m "Aula 01: configuração inicial do projeto"

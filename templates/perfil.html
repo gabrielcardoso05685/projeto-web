@@ -1,0 +1,7 @@
+{# 'usuario' sera None se o nome da URL nao existir no dicionario #}
+{% if usuario %}]
+    <h2>{{ usuario.nome }}</h2>
+    {# Acesso a chaves do dicionario usa ponto (.) no Jinja2 - mais limpo que ['chaves'] #}
+{% else %}
+    <div class="alert alert-danger">Usuario nao encontrado</div>
+{% endif %}
